@@ -1,7 +1,7 @@
 ---
 title: CppModules
 date: 2026-02-14 11:31 +0800
-categories: [TOP_CATEGORY, SUB_CATEGORY]
+#categories: [TOP_CATEGORY, SUB_CATEGORY]
 tags: [cpp, cpp20]
 ---
 
@@ -133,3 +133,7 @@ CPPTRACE_BEGIN_NAMESPACE
     #endif
 CPPTRACE_END_NAMESPACE
 ```
+
+# CMake
+
+见 https://github.com/krisfur/cpp26-modules-template
