@@ -137,3 +137,14 @@ CPPTRACE_END_NAMESPACE
 # CMake
 
 见 https://github.com/krisfur/cpp26-modules-template
+
+例来自https://cryos.net/2024/01/c-modules-and-cmake
+```cmake
+add_library(core)
+target_sources(core
+  PUBLIC
+    FILE_SET CXX_MODULES FILES
+      core.cpp)
+add_executable(angohr angohr.cpp)
+target_link_libraries(angohr PRIVATE core)
+```
