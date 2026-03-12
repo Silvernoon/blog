@@ -1,3 +1,4 @@
 baseURL = 'https://blog.sivn.net.cn/'
 languageCode = 'zh-cn'
 title = 'Blog'
+theme = 'hugo-theme-stack'
