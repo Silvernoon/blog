@@ -1,0 +1,46 @@
+name: "Build and Deploy Hugo Site"
+on:
+  push:
+    branches: master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+  # 允许从 Actions 标签手动运行
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+# 只允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'  # 或者指定版本如 '0.132.3'
+          extended: true  # 如果需要 SCSS/Sass 支持
+      
+      - name: Build site
+        run: hugo --minify
+        # 或者使用环境变量: hugo --environment production --minify
+      
+      - name: Deploy via rsync
+        uses: burnett01/rsync-deployments@v8
+        with:
+          switches: -avzr --delete
+          path: public/  # Hugo 默认输出到 public 目录
+          remote_path: /var/www/blog/
+          remote_host: ${{ secrets.SERVER_HOST }}
+          remote_user: ${{ secrets.SERVER_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
