@@ -1,4 +1,13 @@
 baseURL = 'https://blog.sivn.net.cn/'
+DefaultContentLanguage = 'zh'
 languageCode = 'zh-cn'
 title = 'Blog'
 theme = 'hugo-theme-stack'
+
+[Params.footer]
+  customText = "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">鲁IPC备2025153170号</a>"
+
+[Params.comments]
+    enabled  = false
+
+
