@@ -5,9 +5,11 @@ title = 'Blog'
 theme = 'hugo-theme-stack'
 
 [Params.footer]
-  customText = "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">鲁IPC备2025153170号</a>"
+customText = "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">鲁IPC备2025153170号</a>"
 
 [Params.comments]
-    enabled  = false
+enabled = false
 
-
+[Params.widgets]
+homepage = [{ type = 'search' }, { type = 'archives' }, { type = 'tag-cloud' }]
+page = [{ type = 'toc' }]
