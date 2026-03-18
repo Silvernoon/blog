@@ -1,8 +1,11 @@
 +++
 date = '2025-04-03'
-title = 'Cppfunctionoverloading'
+title = 'C++函数重载(Overloading)'
+categories = ['computer-science']
 tags = ['cpp']
 +++
+
+## 重载 (Overloading)
 
 (热知识)
 
