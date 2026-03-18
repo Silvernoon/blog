@@ -1,7 +1,8 @@
 +++
 date = '2025-08-20'
 title = '线性代数 二 矩阵'
-tags = ['math', 'lineAralgebra']
+categories = ['math']
+tags = ['line-aralgebra']
 math = true
 +++
 

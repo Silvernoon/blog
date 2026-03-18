@@ -1,7 +1,8 @@
 +++
 date = '2025-08-20'
 title = '线性代数 一 行列式'
-tags = ['cpp']
+categories = ['math']
+tags = ['line-aralgebra']
 math = true
 +++
 
