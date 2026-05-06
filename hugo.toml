@@ -1,6 +1,7 @@
 baseURL = 'https://blog.sivn.net.cn/'
-DefaultContentLanguage = 'zh'
 languageCode = 'zh-cn'
+DefaultContentLanguage = 'zh'
+hasCJKLanguage = true
 title = 'Blog'
 theme = 'hugo-theme-stack'
 
@@ -13,3 +14,12 @@ enabled = false
 [Params.widgets]
 homepage = [{ type = 'search' }, { type = 'archives' }, { type = 'tag-cloud' }]
 page = [{ type = 'toc' }]
+
+#[language]
+[language.en]
+label = "English"
+weight = 2
+
+[language.zh]
+label = "简体中文"
+weight = 1
