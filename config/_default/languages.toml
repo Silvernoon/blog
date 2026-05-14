@@ -1,0 +1,7 @@
+[en]
+label = "English"
+weight = 2
+
+[zh]
+label = "简体中文"
+weight = 1

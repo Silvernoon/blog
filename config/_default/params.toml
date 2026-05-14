@@ -1,0 +1,9 @@
+[footer]
+customText = "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">鲁IPC备2025153170号</a>"
+
+[comments]
+enabled = false
+
+[widgets]
+homepage = [{ type = 'search' }, { type = 'archives' }, { type = 'tag-cloud' }]
+page = [{ type = 'toc' }]

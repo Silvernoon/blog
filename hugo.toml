@@ -4,22 +4,3 @@ DefaultContentLanguage = 'zh'
 hasCJKLanguage = true
 title = 'Blog'
 theme = 'hugo-theme-stack'
-
-[Params.footer]
-customText = "<a href=\"https://beian.miit.gov.cn\" target=\"_blank\">鲁IPC备2025153170号</a>"
-
-[Params.comments]
-enabled = false
-
-[Params.widgets]
-homepage = [{ type = 'search' }, { type = 'archives' }, { type = 'tag-cloud' }]
-page = [{ type = 'toc' }]
-
-#[language]
-[language.en]
-label = "English"
-weight = 2
-
-[language.zh]
-label = "简体中文"
-weight = 1
