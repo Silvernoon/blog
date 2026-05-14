@@ -18,6 +18,6 @@ tags = ['RL']
 2. 提升硬件执行效率
 3. 同时尽量保持模型效果不明显下降
 
-#### 对称量化(Symmetric Quantization)
+### 对称量化(Symmetric Quantization)
 
 

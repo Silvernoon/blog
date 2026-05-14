@@ -6,13 +6,13 @@ tags = ['cpp']
 
 ## 关键词
 
-#### typedef（旧式类型别名定义）
+### typedef（旧式类型别名定义）
 
 ```cpp
 typedef int Integer;
 ```
 
-#### using （新式类型别名定义和类型推导）
+### using （新式类型别名定义和类型推导）
 
 类型别名定义
 
@@ -33,7 +33,7 @@ Ptr<int> p;
 int* p;
 ```
 
-#### decltype
+### decltype
 
 `decltype` 用于获取表达式的类型。 可以做到类似 `template` 的效果。
 
@@ -44,7 +44,7 @@ decltype(x) y = 20;
 
 ## 右值标识
 
-#### unsigned
+### unsigned
 
 u 或 U
 
@@ -52,7 +52,7 @@ u 或 U
 0x7fu
 ```
 
-#### float
+### float
 
 f 或 F
 
@@ -60,7 +60,7 @@ f 或 F
 0.3f
 ```
 
-#### char8_t / char16_t / char32_t
+### char8_t / char16_t / char32_t
 
 ```cpp
 char8_t = u8'a';

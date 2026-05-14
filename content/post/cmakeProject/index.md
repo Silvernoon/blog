@@ -79,7 +79,7 @@ target_include_directories(test PRIVATE ${SINT_GRAPHCS_INCLUDES})
 
 通用函数，如读取文件等， 可以作为OBJECT库保存，而不是STATIC或SHARED，这两种会生成为一个单独的文件。
 
-#### 使用：
+### 使用：
 
 ```cmake
 add_executable(my_app main.cpp $<TARGET_OBJECTS:common>)
