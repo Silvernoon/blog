@@ -1,6 +1,7 @@
 +++
 date = '2026-02-14'
 title = 'CppStacktrace'
+categories = ['software-engineering']
 tags = ['cpp', 'cpp23']
 +++
 

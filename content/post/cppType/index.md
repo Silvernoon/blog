@@ -1,6 +1,7 @@
 +++
 date = '2025-04-28'
 title = 'CPP语法：类型'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

@@ -2,6 +2,8 @@
 date = '2025-03-24'
 title = 'cpp-CMake项目管理'
 description = '关于CMake项目管理的杂项知识(技巧)'
+categories = ['software-engineering']
+tags = ['cmake']
 +++
 
 ## 工程文件结构示例

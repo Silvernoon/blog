@@ -1,6 +1,8 @@
 +++
 date = '2026-04-01T08:30:24+08:00'
 title = 'PyIssue'
+categories = ['software-engineering']
+tags = ['python']
 +++
 
 ## 文件重名

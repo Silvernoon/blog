@@ -1,7 +1,8 @@
 +++
 date = '2026-04-12T16:38:07+08:00'
-title = 'RLQuantization'
-tags = ['RL']
+title = 'Quantization'
+categories = ['deep-learning']
+tags = ['quantization']
 +++
 
 ## 量化（quantization）

@@ -1,6 +1,7 @@
 +++
 date = '2025-04-29'
 title = 'C++报错'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

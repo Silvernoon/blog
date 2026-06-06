@@ -1,6 +1,7 @@
 +++
 date = '2025-05-12'
 title = 'cpp Static 关键词'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

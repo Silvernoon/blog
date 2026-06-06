@@ -1,6 +1,7 @@
 +++
 date = '2025-10-17'
 title = 'PyIterator'
+categories = ['software-engineering']
 tags = ['python']
 +++
 

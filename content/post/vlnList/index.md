@@ -1,6 +1,7 @@
 +++
 date = '2026-05-12T15:38:53+08:00'
 title = 'VLN List'
+categories = ['deep learning', 'reinforcement learning']
 tags = ['vln']
 +++
 

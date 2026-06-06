@@ -1,6 +1,7 @@
 +++
 date = '2026-03-12T19:37:40+08:00'
 title = '虚函数与纯虚函数'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

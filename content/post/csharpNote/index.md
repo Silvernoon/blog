@@ -1,6 +1,8 @@
 +++
 date = '2024-08-16'
 title = 'C#笔记'
+categories = ['software-engineering']
+tags = ['csharp']
 +++
 
 ## class

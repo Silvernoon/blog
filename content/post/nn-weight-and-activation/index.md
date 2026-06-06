@@ -1,7 +1,8 @@
 +++
 date = '2026-05-06T17:08:40+08:00'
 title = 'Neural Network 中的 Weight 与 Activation'
-tags = ['deep-learning', 'attention']
+categories = ['deep-learning']
+tags = ['attention']
 +++
 
 ## Weight（权重）

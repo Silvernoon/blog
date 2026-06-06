@@ -1,6 +1,7 @@
 +++
 date = '2025-09-19'
 title = 'Cpp Inline 关键词'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

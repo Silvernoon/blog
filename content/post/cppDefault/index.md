@@ -1,6 +1,7 @@
 +++
 date = '2025-10-19'
 title = 'CppDefault'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

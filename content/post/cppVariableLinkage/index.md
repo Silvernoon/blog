@@ -1,6 +1,7 @@
 +++
 date = '2025-04-03'
 title = 'cpp变量的链接属性'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

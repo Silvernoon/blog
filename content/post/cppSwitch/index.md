@@ -1,6 +1,7 @@
 +++
 date = '2025-10-10'
 title = 'CppSwitch'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

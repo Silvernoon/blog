@@ -1,6 +1,7 @@
 +++
 date = '2026-04-28'
 title = 'cpp静态变量初始化'
+categories = ['software-engineering']
 tags = ['cpp']
 +++
 

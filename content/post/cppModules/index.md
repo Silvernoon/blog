@@ -1,6 +1,7 @@
 +++
 date = '2026-02-14'
 title = 'CppModules'
+categories = ['software-engineering']
 tags = ['cpp', 'cpp20', 'cmake']
 +++
 
