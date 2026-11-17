@@ -1,4 +1,6 @@
++++
 math = true
++++
 
 # 关系理论
 
@@ -71,7 +73,7 @@ AxB = {<1,a>,<1,b>,...}
 create schema (模式)  authorization (用户名);
 ```
 
-### 表 
+### 表
 
 CREATE TABLE 表名
 (
@@ -79,7 +81,7 @@ CREATE TABLE 表名
 表级完整性约束条件,
 )
 
-char(n) 
+char(n)
 varchar(n) 最大长度为n的可变字符
 number(n) 长度为n的数字型
 int 4B
@@ -163,7 +165,6 @@ desc降序
 select a.*,b.*
 from a,b
 where a.Sno = b.Sno
-
 
 # E-R图
 
