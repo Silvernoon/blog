@@ -30,6 +30,9 @@ jobs:
           fetch-depth: 0
           submodules: recursive
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Install Hugo
         run: |
           HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | awk -F'"' '/tag_name/ {print $4}' | sed 's/^v//')
